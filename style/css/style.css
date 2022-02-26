@@ -1,0 +1,42 @@
+@font-face {
+  font-family: yekan;
+  src: url("./font/iranyekanwebbold.ttf");
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family :"yekan"
+}
+
+/* utility */
+.lh-1{
+  line-height: 30px;
+}
+
+.lh-2{
+  line-height: 35px;
+}
+
+
+
+/* end of utility */
+
+
+/* header */
+
+
+.header{
+  height: 100vh;
+  background-image: url("../../Assests/img/2.jpg");
+  background-size: cover;
+}
+
+
+
+
+
+/* end of header */
+
