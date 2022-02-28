@@ -1,6 +1,5 @@
 let navButton = document.querySelector("#nav-button");
 
-
 // toggle
 // اگر نداره میزاره و یا داشت برمیداره
 navButton.addEventListener("click", function () {
@@ -10,9 +9,11 @@ navButton.addEventListener("click", function () {
   
 
 
- /* for scroll window>200 */
 
+ /* for scroll window>200 */
   window.onscroll = scrollShowNav;
+
+  let navMenu = document.querySelector("#nav-menu");
 
   function scrollShowNav() {
      if (
@@ -21,9 +22,9 @@ navButton.addEventListener("click", function () {
      )
      {
         // document.querySelector("#nav-menu").style.padding = "5px 30px";
-        document.querySelector("#nav-menu").classList.add("custum-navbar")
+        navMenu.classList.add("custum-navbar")
      } else {
         // document.querySelector("#nav-menu").style.padding = "1.5rem";
-        document.querySelector("#nav-menu").classList.remove("custum-navbar")
+        navMenu.classList.remove("custum-navbar")
      }
   }

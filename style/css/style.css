@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0%;
   margin: 0%;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Lato, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 /* utility */
@@ -40,6 +40,10 @@ header {
   left: 50%;
   transform:translate(-50% ,-50%)
 } */
+
+.text-font , .text-font span{
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
+}
 
 .banner-heading {
   animation-name: anim;
@@ -120,7 +124,7 @@ header {
 
 .custum-navbar{
   padding:5px 30px;
-  background-color : linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
 }
 
 
