@@ -41,6 +41,11 @@ header {
   transform:translate(-50% ,-50%)
 } */
 
+
+.banner{
+  overflow-x:hidden
+}
+
 .text-font , .text-font span{
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
 }

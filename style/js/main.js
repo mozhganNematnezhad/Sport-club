@@ -11,6 +11,8 @@ navButton.addEventListener("click", function () {
 
 
  /* for scroll window>200 */
+
+
   window.onscroll = scrollShowNav;
 
   let navMenu = document.querySelector("#nav-menu");
@@ -29,18 +31,18 @@ navButton.addEventListener("click", function () {
      }
   }
 
-
 //   animtion awards
 
 
 
 
-// window.onscroll = scrollImg;
+
+// window.onscroll = scrollAwards;
 
 // let awardsText = document.querySelector("#awards-text");
 // let awardImg = document.querySelector("#award-img");
 
-// function scrollImg() {
+// function scrollAwards() {
 //    if (
 //       document.body.scrollTop >700 ||
 //       document.documentElement.scrollTop > 700
