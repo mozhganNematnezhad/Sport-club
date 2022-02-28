@@ -28,3 +28,28 @@ navButton.addEventListener("click", function () {
         navMenu.classList.remove("custum-navbar")
      }
   }
+
+
+//   animtion awards
+
+
+
+
+// window.onscroll = scrollImg;
+
+// let awardsText = document.querySelector("#awards-text");
+// let awardImg = document.querySelector("#award-img");
+
+// function scrollImg() {
+//    if (
+//       document.body.scrollTop >700 ||
+//       document.documentElement.scrollTop > 700
+//    )
+//    {
+//       awardsText.classList.add("fromLeft")
+//       awardImg.classList.add("fromRight")
+//    } else {
+//       awardsText.classList.remove("fromLeft")
+//       awardImg.classList.remove("fromRight")
+//    }
+// }

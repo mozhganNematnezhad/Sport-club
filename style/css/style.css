@@ -138,4 +138,51 @@ header {
 
 
 /* end of navbar */
+
+
+
+/* awards */
+
+.awards{
+  background-color: #151f20;
+}
+
+.fromLeft{
+    animation-name:fromLeft;
+    animation-duration: 3s;
+}
+
+.fromRight{
+  animation-name:fromRight;
+  animation-duration: 3s;
+
+}
+
+@keyframes fromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-120px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+@keyframes fromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(120px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+
+
+/* end of awads */
  
