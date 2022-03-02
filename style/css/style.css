@@ -190,4 +190,32 @@ header {
 
 
 /* end of awads */
- 
+
+
+
+/* servises */
+
+
+.card-shadow{
+  box-shadow: 5px 8px 20px #444;
+  
+}
+
+/* .heading{
+position: absolute;
+bottom: 50px;
+left: 0;
+font-size:25px;
+background-color:#2980b9;
+width: 60%;
+cursor: pointer;
+} */
+
+
+.heading:hover{
+
+
+}
+
+
+/* end of servises */
