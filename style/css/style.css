@@ -198,23 +198,25 @@ header {
 
 .card-shadow{
   box-shadow: 5px 8px 20px #444;
-  
 }
 
-/* .heading{
+.heading{
+background-color:#2980b9;
 position: absolute;
 bottom: 50px;
 left: 0;
+/* right:0; */
 font-size:25px;
-background-color:#2980b9;
-width: 60%;
+width:50%;
 cursor: pointer;
-} */
+opacity: 0.8;
+/* برای این که اون هاور ملایم باشه */
+transition:all 0.7s
+}
 
 
 .heading:hover{
-
-
+  opacity: 1;
 }
 
 
