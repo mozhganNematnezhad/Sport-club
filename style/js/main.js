@@ -55,3 +55,15 @@ navButton.addEventListener("click", function () {
 //       awardImg.classList.remove("fromRight")
 //    }
 // }
+
+
+
+let gallerylistItem = document.querySelectorAll("#gallery-list-item");
+console.log(gallerylistItem)
+
+
+gallerylistItem.addEventListener("click", function () {
+   
+ });
+
+ 

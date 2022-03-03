@@ -238,10 +238,10 @@ transition:all 0.7s
 
 
 /* gallery */
-.gallery-list-item{
+#gallery-list-item{
   color:#777;
   cursor: pointer;
-  user-select: none;
+  /* user-select: none; */
 }
 
 .active-item{
