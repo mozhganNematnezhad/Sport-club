@@ -58,12 +58,27 @@ navButton.addEventListener("click", function () {
 
 
 
-let gallerylistItem = document.querySelectorAll("#gallery-list-item");
-console.log(gallerylistItem)
 
 
-gallerylistItem.addEventListener("click", function () {
-   
- });
 
- 
+const list =document.querySelectorAll(".list")
+const filter =document.querySelectorAll(".filter")
+
+for(let i=0 ; i<list.length ; i++){
+   list[i].addEventListener("click",function(){
+      for(j=0 ; j<list.length ; j++){
+         list[j].classList.remove("active")
+      }
+      this.classList.add("active")
+      let dataFilter =this.getAttribute('data-filter')
+
+      for(let k=0 ;k<filter.length ; k++){
+         filter[k].classList.add("hide")
+         if(filter[k].getAttribute("data-item")== dataFilter ||dataFilter = "All"){
+            filter[k].classList.add("active")
+
+         }
+
+      }
+   })
+}
