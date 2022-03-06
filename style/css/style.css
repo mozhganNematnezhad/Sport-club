@@ -248,4 +248,8 @@ transition:all 0.7s
   color: #70aed2;
 }
 
+.filter.hide{
+  display: none
+}
+
 /* end of gallery */

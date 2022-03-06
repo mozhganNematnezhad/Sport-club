@@ -72,13 +72,18 @@ for(let i=0 ; i<list.length ; i++){
       this.classList.add("active")
       let dataFilter =this.getAttribute('data-filter')
 
-      for(let k=0 ;k<filter.length ; k++){
-         filter[k].classList.add("hide")
-         if(filter[k].getAttribute("data-item")== dataFilter ||dataFilter = "All"){
-            filter[k].classList.add("active")
 
+      for(let k=0 ;k<filter.length ; k++){
+         filter[k].classList.remove("active")
+         filter[k].classList.add("hide")
+
+
+         if(filter[k].getAttribute("data-item")== dataFilter ||dataFilter == "All"){
+            filter[k].classList.remove("hide")
+            filter[k].classList.add("active")
          }
 
       }
+     
    })
 }
