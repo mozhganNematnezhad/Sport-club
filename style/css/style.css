@@ -344,11 +344,8 @@ header {
     width: 80%;
     margin: auto;
   }
-
 }
-
 /* end of contact */
-
 
 
 /* footer  */
@@ -362,6 +359,5 @@ header {
 .footer-link:hover{
   color: #70aed2;
   text-decoration: none;
-
 }
 /* end of footer  */
