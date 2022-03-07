@@ -379,17 +379,34 @@
         </div>
         <!-- end of title -->
         <div class="row justify-content-center">
-          <div class="col-md-8 ">
+          <div class="col-md-8">
             <div
               id="trainers-carousel"
               class="carousel slide"
               data-bs-ride="carousel"
             >
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#trainers-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#trainers-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#trainers-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#trainers-carousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#trainers-carousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#trainers-carousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
               <div class="carousel-inner">
                 <!-- slide -->
                 <div class="carousel-item text-center active">
@@ -405,7 +422,7 @@
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua
                     </p>
-                    <h5 class="text-light  my-3">sara ilich</h5>
+                    <h5 class="text-light my-3">sara ilich</h5>
                     <ul class="list-inline d-flex justify-content-center mb-5">
                       <li class="list inline item">
                         <i class="fas fa-star text-warning"></i>
@@ -425,11 +442,11 @@
                     </ul>
                   </blockquote>
                 </div>
-                 <!--  end slide -->
+                <!--  end slide -->
                 <div class="carousel-item text-center">
                   <img
                     src="./Assests/img/12.jpg"
-                    class="img-fluid rounded-circle   m-5"
+                    class="img-fluid rounded-circle m-5"
                     style="width: 300px; height: 200px"
                     height="200px"
                     alt="..."
@@ -494,7 +511,6 @@
                   </blockquote>
                 </div>
               </div>
-             
             </div>
           </div>
         </div>
@@ -502,8 +518,8 @@
     </section>
     <!--end of  trainers -->
 
-     <!--membership -->
-     <section>
+    <!--membership -->
+    <section class="membership">
       <div class="container-fluid p-5 text-center">
         <!--title -->
         <div
@@ -557,7 +573,7 @@
                     <li class="py-3 cart-list-item border-0">Blue salon</li>
                   </ul>
                   <a href="" class="btn membership-card-button text-light"
-                    >ثبت نام</a
+                    > submit</a
                   >
                 </div>
               </div>
@@ -570,6 +586,7 @@
               data-aos-anchor="#example-anchor"
               data-aos-offset="500"
               data-aos-duration="500"
+              data-aos-easing="ease-in-sine"
             >
               <div class="card card-3 text-light py-4 my-4 border-0 mx-auto">
                 <div class="card-body">
@@ -582,7 +599,7 @@
                     <li class="py-3 cart-list-item border-0">Blue salon</li>
                   </ul>
                   <a href="" class="btn membership-card-button text-light"
-                    >ثبت نام</a
+                    > submit</a
                   >
                 </div>
               </div>
@@ -593,20 +610,134 @@
     </section>
     <!--end of  membership -->
 
+    <!-- contact -->
+    <section class="contact p-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5 pb-4">
+            <h1 class="text-white mb-5">  Contact Us </h1>
+            <form action="" class="contact-form">
+              <div class="form-group py-4">
+                <input
+                  type="text"
+                  class="form-control my-2 p-2 input"
+                  placeholder="name"
+                  id="name"
+                />
+                <label for="name" class="label">name</label>
+              </div>
+              <div class="form-group py-4">
+                <input
+                  type="email"
+                  class="form-control my-2 p-2 input"
+                  placeholder="email"
+                  id="email"
+                />
+                <label for="name" class="label">email</label>
+              </div>
+              <div class="form-group py-4">
+                <input type="checkbox" id="check" />
+                <label for="check" class="text-white"
+                  >Send me notifications
+                </label>
+              </div>
+              <button type="submit" class="btn btn-block p-2 submit-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!--end of  contact -->
 
+    <footer class="bg-dark px-5">
+      <div class="container-fluid">
+        <div class="row text-light py-4">
+          <div class="col-lg-4 col-sm-6">
+            <h5 class="pb-3"> About Us</h5>
+            <p class="lh-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <h5 class="pb-3">Pages</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a class="footer-link" href="">Home</a>
+              </li>
+              <li>
+                <a class="footer-link" href="">Honors</a>
+              </li>
+              <li>
+                <a class="footer-link" href="">Services</a>
+              </li>
+              <li>
+                <a class="footer-link" href=""> Gallery</a>
+              </li>
+              <li>
+                <a class="footer-link" href=""> Coach</a>
+              </li>
+              <li>
+                <a class="footer-link" href="">  About US</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <h5 class="pb-3">   If you want help</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a class="footer-link" href="">Support</a>
+              </li>
+              <li>
+                <a class="footer-link" href=""> tttt</a>
+              </li>
+              <li>
+                <a class="footer-link" href=""> aaaaa</a>
+              </li>
+              <li>
+                <a class="footer-link" href=""> cccc</a>
+              </li>
+              <li>
+                <a class="footer-link" href="">Sports@email.com</a>
+              </li>
+            </ul>
 
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <h5 class="pb-3"> About Us</h5>
+            <p class="lh-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+            <form action="" class="mb-3">
+              <div class="input-group">
+                <input class="form-control" placeholder="send" type="text">
+                <div class="input-group-append">
+                  <button class="btn btn-danger text-white">send</button>
+                </div>
+              </div>
+            </form>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <i class="fab fa-facebook fa-2x text-primary"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-instagram fa-2x text-danger"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-twitter fa-2x text-info"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-youtube fa-2x text-danger"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
+    </footer>
 
-
-
-
-
-
-
-
-
-    
     <!-- ********************************************** -->
 
     <script src="./style/js/bootstrap.bundle.min.js"></script>
