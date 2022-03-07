@@ -266,3 +266,38 @@ transition:all 0.7s
 
 
 /* end of trainers */
+
+
+
+/* membership */
+.card-1,
+.card-2,
+.card-3 {
+  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+  url("../../Assests/img/gallery1.jpg");
+  background-size: cover;
+  box-shadow:7px 8px 50px #555 ;
+  max-width: 370px;
+}
+
+
+.cart-list-item{
+  border-bottom: 1px groove #eee;
+  /* برای این که اون بوردر باتن کوچک شود */
+    width: 55%;
+    /* برای این که در وسط قرار گیرد */
+    margin: auto;
+}
+
+
+.membership-card-button{
+  background-color:#2980b9;
+  width:130px;
+  border-radius: 25px;
+  transition: all 0.4s;
+}
+.membership-card-button:hover{
+  background-color:#3498db;
+  transform:translateY(-2px)
+}
+/* end of membership */
