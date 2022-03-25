@@ -65,6 +65,8 @@ header {
   animation-duration: 3s;
 }
 
+
+
 .banner-par {
   animation-name: anim2;
   animation-duration: 3s;
@@ -93,6 +95,15 @@ header {
     transform: translateX(0px);
     color: red;
   }
+}
+
+
+@media (max-width: 570px) {
+  .banner-par span{
+    font-size: 1.2rem
+
+  }
+
 }
 
 /* end of banner */
@@ -215,7 +226,47 @@ header {
   opacity: 1;
 }
 
+
+.hover-zoomout a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.hover-zoomout img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.hover-zoomout:hover img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+@media(max-width: 1200px){
+  .heading{
+    font-size:18px
+  }
+}
+@media(max-width: 768px){
+  .heading{
+    font-size:16px
+  }
+}
+
 /* end of servises */
+
 
 /* gallery */
 .list {
@@ -231,6 +282,27 @@ header {
 .filter.hide {
   display: none;
 }
+
+
+@media(max-width: 570px){
+  .GalleryBox{
+    overflow-x: hidden;
+  }
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 450px) {
+  .headerGallery span {
+    /* font-size: 0.7rem;
+    font-weight: bolder; */
+    margin-right: 0.09rem;
+    margin-left: 0.09rem;
+  }
+ }
+
+
+
 
 /* end of gallery */
 
@@ -271,10 +343,20 @@ header {
   border-radius: 25px;
   transition: all 0.4s;
 }
+
 .membership-card-button:hover {
   background-color: #3498db;
   transform: translateY(-2px);
 }
+
+
+@media(max-width: 570px){
+  .GalleryBox{
+    overflow-x: hidden;
+  }
+  
+}
+
 /* end of membership */
 
 /* contact */
@@ -289,8 +371,6 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-
 
 .input{
   background: transparent;
